@@ -1,0 +1,23 @@
+
+.mainClass {
+    border-left: 1.2rem solid #3f3d3d; 
+    border-right: 1.2rem solid #c2c0c0;
+    border-bottom: 1.2rem solid #f3f3f3;
+    border-top: 1.2rem solid #a7a6a6; 
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    animation: spin 1.5s cubic-bezier(0, 0, 1, 0.4) infinite;
+}
+
+
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+
+

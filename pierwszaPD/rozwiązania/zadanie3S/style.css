@@ -1,0 +1,36 @@
+.WebRectangle {
+    position: relative;
+    top: 2rem;
+    left:2rem;
+    width: 12rem;
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border: 8px solid black;   
+}
+
+.Webstack {
+    position: absolute;
+    left: 12%;
+    top: 40%;
+    font-size: 1.7rem;
+    font-size-adjust: 1;
+    z-index: 0;
+}
+
+.colorfulRectangle{
+    position: absolute;
+    top:2rem;
+    left:3rem;
+    width: 16rem;
+    height: 7rem;
+    background-color: rgb(205, 205, 248);
+    transition: top 2s left 2s;
+    z-index: -1;
+}
+
+.colorfulRectangle:hover{
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,131 @@
+
+.Kwadrat {
+    position: relative;
+    padding: 3rem;
+    display: flex;
+}
+
+.mainClass {
+    position: absolute;
+    padding: 1.3rem;
+    border-radius: 100px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.colorClass1 {
+    top: 0;
+    left: 0;
+    background-color:#3f3d3d;
+    animation-name: first;
+}
+
+.colorClass2 {
+    background-color:#a7a6a6;
+    animation-name: second;
+}
+
+.colorClass3 {
+    background-color:#c2c0c0;
+    animation-name: third;
+    top: 3rem;
+    left: 0;
+}
+
+.colorClass4 {
+    top: 0;
+    background-color:#6e6969;
+    animation-name: fourth;
+}
+
+@keyframes first{
+    0%{
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 3rem;
+    }
+    50%{
+        top: 3rem;
+        left: 3rem;
+    }
+    75%{
+        top: 3rem;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+    
+  }
+  
+  @keyframes fourth{
+    0%{
+        top: 0;
+        left: 3rem;
+    }
+    25%{
+        top: 3rem;
+        left: 3rem;
+    }
+    50%{
+        top: 3rem;
+        left: 0;
+    }
+    75%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 3rem;
+    }
+}
+
+@keyframes second{
+    0%{
+        top: 3rem;
+        left: 3rem;
+    }
+    25%{
+        top: 3rem;
+        left: 0;
+    }
+    50%{
+        top: 0;
+        left: 0;
+    }
+    75%{
+        top: 0;
+        left: 3rem;
+    }
+    100%{
+        top: 3rem;
+        left: 3rem;
+    }
+}
+
+@keyframes third{
+    0%{
+        top: 3rem;
+        left: 0;
+    } 
+    25%{
+        top: 0;
+        left: 0;
+    } 
+    50%{
+        top: 0;
+        left: 3rem;
+    }
+    75%{
+        top: 3rem;
+        left: 3rem;
+    }
+    100%{
+        top: 3rem;
+        left: 0;
+    }
+}
